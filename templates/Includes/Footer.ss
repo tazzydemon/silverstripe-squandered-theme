@@ -13,6 +13,6 @@
             </ul>
         </div>
         <div class="large-4 pull-10 columns">
-            Web Services
+            $Title
         </div>
     </div>
