@@ -31,14 +31,16 @@
     <%--<% end_if %>--%>
 
     <%-- Footer --%>
+    <div class="push"></div>
+</div>
     <% include  Footer %>
     <%-- jQuery 1.9.1 --%>
-    <script src="{$ThemeDir}/javascript/libs/jquery-1.9.1.min.js"></script>
+<script src="{$ThemeDir}/javascript/libs/jquery-1.9.1.min.js"></script>
 
     <%-- Foundation All --%>
-    <script src="{$ThemeDir}/javascript/foundation.min.js"></script>
+<script src="{$ThemeDir}/javascript/foundation.min.js"></script>
 
-    <!--
+<!--
 	<script src="{$ThemeDir}/javascript/foundation/foundation.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.alerts.js"></script>
 	<script src="{$ThemeDir}/javascript/foundation/foundation.clearing.js"></script>
@@ -57,7 +59,7 @@
 	-->
 
     <%-- App --%>
-    <script src="{$ThemeDir}/javascript/app.js"></script>
+<script src="{$ThemeDir}/javascript/app.js"></script>
 
 </body>
 </html>

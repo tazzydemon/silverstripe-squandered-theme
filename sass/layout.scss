@@ -13,6 +13,7 @@ $row-spacer: 1.875em;
   text-transform: capitalize;
   margin: 0px;
   padding: 0px;
+  margin-top: -21px;
 }
 
 body, html {
@@ -169,7 +170,6 @@ table {
     ul li {
       display: inline;
       list-style-type: none;
-      padding-right: 10px;
     }
   }
 }
@@ -184,3 +184,26 @@ table {
   height: 100%;
   margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
 }
+
+#Form_CommentsForm_action_doPostComment {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+  padding-bottom: 0.8125em;
+  padding-left: 1.5em;
+  font-size: 1em;
+  background-color: #2BA6CB;
+  border-color: #2284A1;
+  color: #FFF;
+}
+
