@@ -1,0 +1,186 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300);
+
+$links: #82BD1A;
+$background: #E2E2E2;
+$text: #373737;
+$row-spacer: 1.875em;
+
+@mixin sidebarTitle {
+  color: $text;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.6em;
+  font-weight: 100;
+  text-transform: capitalize;
+  margin: 0px;
+  padding: 0px;
+}
+
+body, html {
+  background-color: $background;
+  color: $text;
+  font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.625;
+  height: 100% !important;
+
+  ul li {
+    list-style: none;
+  }
+}
+
+table {
+  background: #FFF;
+  margin-bottom: 0px;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.row {
+  margin-bottom: $row-spacer;
+  a {
+    color: $links;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  a:hover {
+    color: $text;
+  }
+}
+
+#Comments {
+  .row {
+    .authorName {
+      font-size: 0.6875em;
+    }
+    .large-8 {
+      background: #F6F6F6;
+    }
+    .large-8:before {
+      content: url(../images/comment-arrow.png);
+      left: -21px;
+      position: absolute;
+    }
+  }
+}
+
+#BlogSummary {
+  .postTitle {
+    font-size: 30px;
+  }
+  .authorDate {
+    font-size: 0.6875em;
+  }
+  .tags {
+    font-size: 0.6875em;
+  }
+  .arrowThing:before {
+    content: "/";
+
+  }
+  .blogDate {
+    width: 80px;
+    float: left;
+    color: #8D8D8D;
+  }
+  li {
+    padding-bottom: 15px;
+  }
+}
+
+#Page {
+  .large-8 {
+    padding: 15px;
+    background-color: #ffffff;
+    min-height: 50%;
+  }
+  .large-4 {
+    padding: 0px;
+    text-align: right;
+    color: $text;
+    background-color: $background;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    a {
+      color: $text;
+      -o-transition: .5s;
+      -ms-transition: .5s;
+      -moz-transition: .5s;
+      -webkit-transition: .5s;
+      transition: .5s;
+    }
+    a:hover {
+      color: $links
+    }
+    ul li {
+      text-align: right;
+    }
+  }
+
+  h1 {
+    @include sidebarTitle;
+  }
+  h3 {
+    @include sidebarTitle;
+  }
+}
+
+#Breadcrumbs {
+  .row {
+    border: none;
+    padding: 0px;
+    .large-8 {
+      background: #f6f6f6;
+      padding: 0px;
+      ul, ol, dl {
+
+        margin: 0px;
+      }
+    }
+  }
+  .breadcrumbs {
+    border: none;
+    a {
+      color: $links;
+      text-transform: capitalize;
+    }
+    .current {
+      text-transform: capitalize;
+    }
+  }
+}
+
+#Footer, .push {
+  height: 60px;
+  background-color: white;
+  .row {
+    margin-top: 0px;
+    font-size: 0.6875em;
+    padding-top: 25px;
+    a {
+      color: $links;
+      text-align: center;
+    }
+    ul li {
+      display: inline;
+      list-style-type: none;
+      padding-right: 10px;
+    }
+  }
+}
+
+.push {
+  background-color: $background;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
+}

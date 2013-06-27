@@ -1,0 +1,228 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300);
+
+/* line 19, ../scss/sass/layout.scss */
+body, html {
+    background-color: #e2e2e2;
+    color: #373737;
+    font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.625;
+    height: 100% !important;
+}
+
+/* line 27, ../scss/sass/layout.scss */
+body ul li, html ul li {
+    list-style: none;
+}
+
+/* line 32, ../scss/sass/layout.scss */
+table {
+    background: #FFF;
+    margin-bottom: 0px;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+
+/* line 40, ../scss/sass/layout.scss */
+.row {
+    margin-bottom: 1.875em;
+}
+
+/* line 42, ../scss/sass/layout.scss */
+.row a {
+    color: #82bd1a;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+/* line 50, ../scss/sass/layout.scss */
+.row a:hover {
+    color: #373737;
+}
+
+/* line 57, ../scss/sass/layout.scss */
+#Comments .row .authorName {
+    font-size: 0.6875em;
+}
+
+/* line 60, ../scss/sass/layout.scss */
+#Comments .row .large-8 {
+    background: #F6F6F6;
+}
+
+/* line 63, ../scss/sass/layout.scss */
+#Comments .row .large-8:before {
+    content: url(../images/comment-arrow.png);
+    left: -21px;
+    position: absolute;
+}
+
+/* line 72, ../scss/sass/layout.scss */
+#BlogSummary .postTitle {
+    font-size: 30px;
+}
+
+/* line 75, ../scss/sass/layout.scss */
+#BlogSummary .authorDate {
+    font-size: 0.6875em;
+}
+
+/* line 78, ../scss/sass/layout.scss */
+#BlogSummary .tags {
+    font-size: 0.6875em;
+}
+
+/* line 81, ../scss/sass/layout.scss */
+#BlogSummary .arrowThing:before {
+    content: "/";
+}
+
+/* line 85, ../scss/sass/layout.scss */
+#BlogSummary .blogDate {
+    width: 80px;
+    float: left;
+    color: #8D8D8D;
+}
+
+/* line 90, ../scss/sass/layout.scss */
+#BlogSummary li {
+    padding-bottom: 15px;
+}
+
+/* line 97, ../scss/sass/layout.scss */
+#Page .large-8 {
+    padding: 15px;
+    background-color: #ffffff;
+    min-height: 50%;
+}
+
+/* line 102, ../scss/sass/layout.scss */
+#Page .large-4 {
+    padding: 0px;
+    text-align: right;
+    color: #373737;
+    background-color: #e2e2e2;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+/* line 111, ../scss/sass/layout.scss */
+#Page .large-4 a {
+    color: #373737;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+/* line 119, ../scss/sass/layout.scss */
+#Page .large-4 a:hover {
+    color: #82bd1a;
+}
+
+/* line 122, ../scss/sass/layout.scss */
+#Page .large-4 ul li {
+    text-align: right;
+}
+
+/* line 127, ../scss/sass/layout.scss */
+#Page h1 {
+    color: #373737;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.6em;
+    font-weight: 100;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* line 130, ../scss/sass/layout.scss */
+#Page h3 {
+    color: #373737;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.6em;
+    font-weight: 100;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* line 136, ../scss/sass/layout.scss */
+#Breadcrumbs .row {
+    border: none;
+    padding: 0px;
+}
+
+/* line 139, ../scss/sass/layout.scss */
+#Breadcrumbs .row .large-8 {
+    background: #f6f6f6;
+    padding: 0px;
+}
+
+/* line 142, ../scss/sass/layout.scss */
+#Breadcrumbs .row .large-8 ul, #Breadcrumbs .row .large-8 ol, #Breadcrumbs .row .large-8 dl {
+    margin: 0px;
+}
+
+/* line 148, ../scss/sass/layout.scss */
+#Breadcrumbs .breadcrumbs {
+    border: none;
+}
+
+/* line 150, ../scss/sass/layout.scss */
+#Breadcrumbs .breadcrumbs a {
+    color: #82bd1a;
+    text-transform: capitalize;
+}
+
+/* line 154, ../scss/sass/layout.scss */
+#Breadcrumbs .breadcrumbs .current {
+    text-transform: capitalize;
+}
+
+/* line 160, ../scss/sass/layout.scss */
+#Footer, .push {
+    height: 60px;
+    background-color: white;
+}
+
+/* line 163, ../scss/sass/layout.scss */
+#Footer .row, .push .row {
+    margin-top: 0px;
+    font-size: 0.6875em;
+    padding-top: 25px;
+}
+
+/* line 167, ../scss/sass/layout.scss */
+#Footer .row a, .push .row a {
+    color: #82bd1a;
+    text-align: center;
+}
+
+/* line 171, ../scss/sass/layout.scss */
+#Footer .row ul li, .push .row ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+/* line 179, ../scss/sass/layout.scss */
+.push {
+    background-color: #e2e2e2;
+}
+
+/* line 183, ../scss/sass/layout.scss */
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+    /* the bottom margin is the negative value of the footer's height */
+}

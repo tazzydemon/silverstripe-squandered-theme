@@ -1,0 +1,9 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "foundation/_variables";
+
+.typography {
+  @import "foundation/components/_global", "foundation/components/_type", "foundation/components/_buttons", "foundation/components/_flex-video", "foundation/components/_keystrokes", "foundation/components/_labels", "foundation/components/_tables"
+}
