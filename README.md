@@ -1,4 +1,6 @@
 silverstripe-squandered-theme
 =============================
 
-A bastard theme that butchered Silverstripe standards.
+A continuous work in progress.
+
+Built for 3.1 but should be fine 3.*

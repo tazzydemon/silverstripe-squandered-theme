@@ -14,9 +14,11 @@
     <% else %>
         <h2><% _t('NOENTRIES', 'There are no blog entries') %></h2>
     <% end_if %>
-    <div class="row">
-        <div class="large-8 push-3 columns ">
-            <% include BlogPagination %>
+    <% if BlogPagination %>
+        <div class="row">
+            <div class="large-8 push-3 columns ">
+                <% include BlogPagination %>
+            </div>
         </div>
-    </div>
+    <% end_if %>
 </div>
