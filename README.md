@@ -7,21 +7,23 @@ Built for 3.1 but should be fine 3.*
 
 To display blogs on the homepage, create a new php file in mysite/code called HomePage.php and add the following code.
 
-Login
+Screenshots
 --------------
+**Login**
 ![alt tag](https://dl.dropboxusercontent.com/u/5616402/Internet%20Posts/github/login.jpg)
-Home page, with latest blog posts
---------------
+
+**Home page, with latest blog posts**
 ![alt tag](https://dl.dropboxusercontent.com/u/5616402/Internet%20Posts/github/home.jpg)
-Blog Holder
---------------
+
+**Blog Holder**
 ![alt tag](https://dl.dropboxusercontent.com/u/5616402/Internet%20Posts/github/blog.jpg)
-Comments
---------------
+
+**Comments**
 ![alt tag](https://dl.dropboxusercontent.com/u/5616402/Internet%20Posts/github/comments.jpg)
 
 Custome code
 --------------
+**Blog posts on the homepage**
 ```php
 <?php
 class HomePage extends Page
@@ -38,6 +40,7 @@ class HomePage_Controller extends Page_Controller
 ```
 Then with the CMS change the page type of your homepage to be HomePage. 
 
+**Enable Gravatar**
 To enable gravatar icons for the comments, added the following to /mysite/_config.php
 ```php
 Commenting::set_config_value('SiteTree', 'use_gravatar', true);
