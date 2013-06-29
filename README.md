@@ -23,7 +23,6 @@ Screenshots
 
 Custome code
 --------------
-**Blog posts on the homepage**
 ```php
 <?php
 class HomePage extends Page
@@ -40,7 +39,6 @@ class HomePage_Controller extends Page_Controller
 ```
 Then with the CMS change the page type of your homepage to be HomePage. 
 
-**Enable Gravatar**
 To enable gravatar icons for the comments, added the following to /mysite/_config.php
 ```php
 Commenting::set_config_value('SiteTree', 'use_gravatar', true);
