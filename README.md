@@ -7,9 +7,13 @@ Built for 3.1 but should be fine 3.*
 
 To display blogs on the homepage, create a new php file in mysite/code called HomePage.php and add the following code.
 
+![alt tag](https://dl.dropboxusercontent.com/u/5616402/Internet%20Posts/github/login.jpg)
 
-![alt tag](http://url/to/img.png)
-![alt tag](http://url/to/img.png)
+![alt tag](https://dl.dropboxusercontent.com/u/5616402/Internet%20Posts/github/home.jpg)
+
+![alt tag](https://dl.dropboxusercontent.com/u/5616402/Internet%20Posts/github/blog.jpg)
+
+![alt tag](https://dl.dropboxusercontent.com/u/5616402/Internet%20Posts/github/comments.jpg)
 
 ```php
 <?php
