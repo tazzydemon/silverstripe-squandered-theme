@@ -7,6 +7,10 @@ Built for 3.1 but should be fine 3.*
 
 To display blogs on the homepage, create a new php file in mysite/code called HomePage.php and add the following code.
 
+
+![alt tag](http://url/to/img.png)
+![alt tag](http://url/to/img.png)
+
 ```php
 <?php
 class HomePage extends Page
